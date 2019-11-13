@@ -1,0 +1,6 @@
+Django
+djangorestframework
+djangorestframework-simplejwt
+django_filters
+mysql-connector
+
