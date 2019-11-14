@@ -1,0 +1,162 @@
+
+1. The letters from the word "ACT" can be arranged to spell out 6 different three-letter combinations: ACT, ATC, CAT, CTA, TAC, TCA. The letters from the word "BOB" can be arranged to spell out 3 different three-letter combinations: BBO, BOB, OBB. How many different four-letter combinations can be made from the letters in the word "TART"?
+
+C. 12
+
+
+2. The letters from the word "ACT" can be arranged to spell out 6 different three-letter combinations: ACT, ATC, CAT, CTA, TAC, TCA. The letters from the word: "BOB" can be arranged to spell out 3 different three-letter combinations: BBO, BOB, OBB. How many different four-letter combinations can be made from the letters in the word "NOON"?
+
+B. 6
+
+
+3. Eight people, J, K, L, M, N, P, Q, and R, are seated in chairs around a rectangular table. One sits at the head, one at the foot, and three on each side. Either P or Q sits at the head. Either M or N sits at the foot. J won't sit next to K. R won't sit next to L. J must sit next to L. If we start at the head of the table and go around the table, which of the following is an acceptable arrangement of the people?
+A. Q, K, M, P, N, J, L, R
+D. Q, K, L, J, N, R, M, P
+
+4. Eight people, J, K, L, M, N, P, Q, and R are seated in chairs around a rectangular table. One sits at the head, one at the foot, and three on each side. Either P or Q sits at the head. Either M or N sits at the foot. J won't sit next to K. R won't sit next to L. J must sit next to L. If P is seated at the head of the table with M on her left and J on her right, which of the following pair of people could sit with R?
+
+
+C. M and Q
+D. N and L
+
+5. Seven people, A, B, C, D, E, F, and G, in a studio audience have been selected to be possible contestants in a game show. Only 4 people will actually be in the show. The narrowing of the field must obey the following rules: D can only be selected if A is selected. C cannot be selected unless B is selected. Either A or G must be selected, but not both. Either C or E must be selected, but not both. Which of the following, if selected for the show, will NOT completely determine the makeup of the four people on the show?
+
+B. C and G
+C. D and F
+D. B and F
+6. Seven people, A, B, C, D, E, F, and G, in a studio audience have been selected to be possible contestants in a game show. Only 4 people will actually be in the show. The narrowing of the field must obey the following rules: D can only be selected if A is selected. C cannot be selected unless B is selected. Either A or G must be selected, but not both. Either C or E must be selected, but not both. Which of the following, if selected for the show, will completely determine the makeup of the four on the show?
+
+
+E. A and C
+
+7. School children who do not like what they are given for lunch always give their salami sandwiches and liverwurst sandwiches to one of six children, A, B, C, D, E, and F. Salami sandwiches are given first to A or B. Liverwurst sandwiches are given to either A, B, or C. If a child doesn't want the sandwich, it is passed on to another child as follows: From A to C if it is salami; from A to D if it is liverwurst. From B to either A or C, whatever the sandwich. From C to D if it is salami; from C to E if it is liverwurst. From D to either C or E, whatever the sandwich. From E to F, whatever the sandwich. F eats every sandwich given to him. A liverwurst sandwich eaten by F could have reached him by which of the following sequences of children?
+
+C. A to D to E
+
+8. Let (X,Y) represent position X and position Y standing next to each other, with X on the left and Y on the right. A, B, C, D, E, and F are standing in a straight line. The following information is given: (B,F) (A,C) (F,E) (D,A) (C,B) Who are standing on the ends of the line?
+
+C. D and E
+
+9. A, B, C, D, E, F, G, and H are eight coworkers, only some of whom email each other. The following people email each other back and forth: A and B A and F B and E C and D C and G D and E D and H G and H No one else emails anyone else. If F sends out an email that eventually reaches G, who are two coworkers who MUST have handled the email?
+
+D. H and D
+
+10. There are six people (T, V, W, X, Y, Z), some of whom communicate by fax. Faxes are only sent: from T to X from T to Z from W to Y from V to T from V to W from X to V from Y to Z No one else ever faxes anyone else. What is the number of people who can receive, either directly or indirectly, a fax from V?
+
+E. 5
+11. Which of the following tags will always be recognized by PHP, regardless of configuration?
+A. <? ?>
+
+12. What is the output of the following expression: echo 5 & 7;
+
+E. 5
+13. What is the output of the following expression: $x = 5; echo $x >> 2;
+
+B. 1
+
+14. What is the output of the following expression: $f = 7; function myFunction(&$d) { return $d++; } myFunction($f); echo $f;
+
+B. 8
+
+D. None of the above
+15. Which of the following functions removes an element from the end of the array?
+
+C. array_pop
+
+16. Does sort() sort numeric arrays in a numerical order or in a string-like order? e.g. $a = array("5", "7", "11", "2", "10"); sort($a);
+
+B. It sorts numerically, but the values of the array remain strings.
+
+17. Which of the following commands can remove a single element from an array?
+
+D. unset
+
+18. What is the output of the following code:
+class myClass
+{
+public $z;
+public function __construct($z = 5)
+{
+$this->z = 10;
+}
+}
+$a = new myClass();
+$b = $a;
+$b->z = 0;
+echo $a->z;
+A. 0
+
+19. What is the output of the following code: class myClass { public $x; function myMethod() { echo $this->x; } } $a = new myClass(); $a->x = 10; $b = $a; $b->x = 20; $c = clone $b; $c->x = 30; $a->myMethod(); $b->myMethod(); $c->myMethod();
+
+B. 202030
+
+20. What is the output of the following code: for($i = 0; $i <= 5; $i++) echo $i;
+
+B. 012345
+
+21. Which line of code is the equivalent to the following while loop: $i = 0; while ($i < 10) { $i = $i + 1; }
+
+B. for ($i = 0; $i < 10; $i++);
+
+22. What is the output of the following code: switch (5 % 2) { case 1: echo 1; case 2: echo 2; case 3: echo 3; break; default: echo 0; }
+
+D. 123
+
+23. What is the output of the following expression: echo substr('abcdefgh', -4, -2);
+
+C. ef
+
+24. Which of the following functions returns a string containing a string representation of all the array elements in the same order, with the glue string between each element
+
+C. implode
+
+25. Which of the following functions returns formatted output as a string?
+A. printf
+
+26. What is the difference between a class and an interface?
+A. Classes can define methods whereas interfaces may only declare them.
+
+27. What is the value of $b after the following code is executed: $animal = array('type' => 'dog', 'name' => 'Max'); $b = (object) $animal;
+A. The value of $b will be the same, because an array is an object.
+B. The value of $b will contain an empty object of type stdClass.
+C. The value of $b will contain an object of type stdClass with type and name as properties.
+D. The value of $b will contain an object of type animal with type and name as properties.
+E. An E_ERROR message will be thrown; you cannot cast arrays to objects.
+28. You are starting a new business and want to look at creating a database to store customer information, stock information and sales.
+Bare in mind you will need to look at pulling reports in the most optimal way to identify:
+
+-- Top 10 customers by purchase (cost) - BIG SPENDERS
+CREATE VIEW IF NOT EXIST top_10_customers_by_cost AS (
+SELECT CONCAT(C.FirstName, " ", C.LastName) as CustomerName, SUM(OI_.UnitPrice )as AmountSpend, 
+FROM Customer AS C
+JOIN Order AS O ON O.CustomerId = C.CustomerId
+JOIN OrderItem AS OI_ ON OI_.OrderId = O.OrderId
+GROUP BY 1 ORDER BY 2 DESC
+LIMIT 10
+);
+
+-- Top 10 customers by purchase (count) - QUANTITY OVER QUALITY
+CREATE VIEW IF NOT EXIST top_10_customers_by_cost AS (
+SELECT CONCAT(C.FirstName, " ", C.LastName) as CustomerName, COUNT(OI_.ProductId) AS NumberOfOrders,
+FROM Customer AS C
+JOIN Order AS O ON O.CustomerId = C.CustomerId
+JOIN OrderItem AS OI_ ON OI_.OrderId = O.OrderId
+GROUP BY 1 ORDER BY 2 DESC
+LIMIT 10
+);
+
+-- Top 3 Sales People by Nett Profit on Sales
+CREATE VIEW IF NOT EXIST to_3_sales_by_profit AS (
+SELECT EmployeeName, SUM(Profit) FROM (SELECT CONCAT(E.FirstName, " ", E.LastName) as EmployeeName, (P.UnitPrice - P.SupplierPrice) AS Profit
+FROM Employeee AS E
+JOIN Sales AS S ON S.EmployeeId = E.EmployeeId
+JOIN Products AS P on P.ProductId = S.ProductId) GROUP BY 1 ORDER BY 2 DESC LIMIT 3);
+
+- Top 3 Sales People by Gross Sales value
+CREATE VIEW IF NOT EXIST to_3_sales AS (
+SELECT CONCAT(E.FirstName, " ", E.LastName) as EmployeeName, SUM(P.UnitPrice)  AS Amount
+FROM Employeee AS E
+JOIN Sales AS S ON S.EmployeeId = E.EmployeeId
+JOIN Products AS P on P.ProductId = S.ProductId GROUP BY 1 ORDER BY 2 DESC LIMIT 3);
+
+
